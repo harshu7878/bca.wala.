@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(255, 0, 0, 0.185);
+    
+}
+.ani{
+    animation: anime 1s ease-in 1 forwards;
+    width: 100%;
+    position: relative;
+}
+@keyframes anime {
+   0%{ opacity: 00%;right: -200px;}
+   50%{opacity: 30%;right: -10px;}
+   100%{ opacity: 100%; right: -25px;}
+}
+button{
+    box-shadow: -5px -5px 5px 5px rgba(27, 27, 26, 0.904);
+}
+.neha{
+    animation: neha 1s ease-in 1 forwards;
+    width: 100%;
+    position: relative;
+}
+@keyframes neha {
+   0%{ opacity: 0px;top: -100px;}
+   30%{ opacity: 10%; top: -90px;}
+   
+   95%{opacity: 50; top: 10px;}
+   100%{ opacity: 100%; }
+}
+.tab{
+    animation: harsh 1s ease-in 1 forwards;
+    position: relative;
+}
+@keyframes harsh {
+   0%{ opacity: 00%;right: -200px;}
+   50%{opacity: 30%;right: -10px;}
+   100%{ opacity: 100%; right: 0px;}
+}
+.harshu1{
+    animation: harshu1 1s ease-in 1 forwards;
+    animation-delay: 0.5s;
+    position: relative;
+}
+@keyframes harshu1 {
+    0%{ opacity: 0px;top: -100px;}
+    30%{ opacity: 10%; top: -90px;}
+    
+    95%{opacity: 50; top: 10px;}
+    100%{ opacity: 100%; }
+ }
+
+.harshu2{
+    animation: harshu2 1s ease-in 1 forwards;
+    animation-delay: 0.75s;
+    position: relative;
+}
+@keyframes harshu2 {
+    0%{ opacity: 0px;top: -100px;}
+   30%{ opacity: 10%; top: -90px;}
+   
+   95%{opacity: 50; top: 10px;}
+   100%{ opacity: 100%; }
+}
+
+.harshu3{
+    animation: harshu3 1s ease-in 1 forwards;
+    animation-delay: 1s;
+    position: relative;
+}
+@keyframes harshu3 {
+    0%{ opacity: 0px;top: -100px;}
+   30%{ opacity: 10%; top: -90px;}
+   
+   95%{opacity: 50; top: 10px;}
+   100%{ opacity: 100%; }
+}
